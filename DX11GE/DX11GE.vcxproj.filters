@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{a10ece0b-c9c3-4b92-accd-69b76e0bbf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{2be0052f-8769-4acd-b01a-c7ff06cde9e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{8be7bae9-7f82-4969-8d8a-f5947a6c0560}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Scene">
+      <UniqueIdentifier>{ba7a4604-0601-410b-b6ed-0426ab7aae24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MYUTIL.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="textureclass.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="RMModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="RMShader.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="systemclass.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="lightshaderclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="lightclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="modelclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="RMTexture.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxClass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="fontshaderclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="cpuclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="fontclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="textclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="soundclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapclass.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="textureshaderclass.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SingletonBase.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MYUTIL.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AlignedAllocationPolicy.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shader\bufferStruct.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="textureclass.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinModel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseModel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelStructure.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNode.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="RMModel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="RMShader.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="systemclass.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="lightshaderclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="lightclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="modelclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="RMTexture.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyboxClass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="fontclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="fontshaderclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="cpuclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="textclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="soundclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapclass.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="textureshaderclass.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\lightShader.hlsl">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\skinShader.hlsl">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\textureShader.hlsl">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>
