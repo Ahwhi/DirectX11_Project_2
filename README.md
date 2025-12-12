@@ -18,7 +18,7 @@
 ---
 
 ### 🔎 미리보기
-![SCR0](https://github.com/Ahwhi/DirectX11_Project_1/blob/main/ScreenShots/1.png)
+![SCR0](https://github.com/Ahwhi/DirectX11_Project_2/blob/main/ScreenShots/1.png)
 
 ---
 
